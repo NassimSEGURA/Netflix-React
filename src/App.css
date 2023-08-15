@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+}
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.container {
+  margin: 0 0 40px 50px;
+}
+.title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+h2 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.movies-list {
+  display: flex;
+  overflow-x: auto;
+}
+.movies-list img {
+  width: 220px;
+  height: 123.859px;
+}
+.movies-list::-webkit-scrollbar {
+  display: none;
+}
